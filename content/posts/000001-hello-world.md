@@ -4,7 +4,7 @@ tags = ["go"]
 date = "2021-09-07"
 +++
 
-Hello World[^1]
+Hello World
 
 ```go 
 package main
@@ -17,5 +17,5 @@ func main() {
 ```
 
 ```
-As my first algorithm teacher said, "Hello World is the first step!".
+As my first algorithm teacher said "Hello World is the first step!".
 ```
