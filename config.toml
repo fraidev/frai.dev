@@ -21,6 +21,8 @@ paginate = 8
   author = "Frai"
   description = "Fullstack developer and Computer Engineering."
   menu_item_separator = " - "
+  favicon = "/favicon.ico"
+
 
 [[params.social]]
   icon = "github"
