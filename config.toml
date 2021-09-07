@@ -1,6 +1,6 @@
 baseURL = "https://frai.dev/"
 languageCode = "en-us"
-title = "Frai"
+title = "Blog Posts"
 theme = "m10c"
 paginate = 8
 
