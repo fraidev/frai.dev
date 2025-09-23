@@ -16,6 +16,4 @@ func main() {
 }
 ```
 
-```
-As my first algorithm teacher said "Hello World is the first step!".
-```
+As my first algorithm teacher used to say: “Hello World is the first step!”
