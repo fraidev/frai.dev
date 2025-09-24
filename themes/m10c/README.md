@@ -13,7 +13,7 @@ Main features:
 - Customizable menu on sidebar
 - Customizable social media links on sidebar
 - Optimized for performance 100/100 on Lighthouse
-- All feather icons included
+- All Feather and Simple Icons icons included
 
 ## Getting started
 
@@ -27,12 +27,12 @@ $ hugo new site [path]
 Clone this repository into `themes/` directory:
 ```bash
 $ cd [path]
-$ git clone https://github.com/vaga/hugo-theme-m10c.git themes/m10c
+$ git clone https://github.com/vaga/hugo-theme-m10c.git themes/hugo-theme-m10c
 ```
 
 Add this line  in the `config.toml` file:
 ```toml
-theme = "m10c"
+theme = "hugo-theme-m10c"
 ```
 
 ### Configuration
@@ -60,7 +60,7 @@ To add a social link, add the following lines in `params`:
 
 ```
 [[params.social]]
-  icon = "github"
+  icon = "brand-github"
   name = "My Github"
   url = "https://github.com/vaga"
 ```
@@ -78,6 +78,16 @@ To change theme colors, add the following lines in `params`:
 
 If you want the above theme colors, you can see the [exampleSite/config.toml](/exampleSite/config.toml) file.
 
+### Icons
+
+This theme uses two libraries for icons:
+
+- [Feather](https://feathericons.com/) is used for application-related icons.
+- [Simple Icons](https://simpleicons.org) is used for brand icons.
+
+To differentiate brand icons from regular ones, the prefix `brand-` is added
+to all icons from the Simple Icons library. (e.g., brand-github, brand-x, brand-mastodon...)
+
 ### Styling
 
 To override styles using scss, add a file called `_extra.scss` to `[path]/assets/css/`
@@ -90,4 +100,5 @@ This theme is released under the [**MIT**](/LICENSE.md) License.
 
 ## Acknowledgements
 
-- [feather](https://feathericons.com/) - [MIT](https://github.com/feathericons/feather/blob/master/LICENSE)
+- [Feather](https://feathericons.com/) - [MIT](https://github.com/feathericons/feather/blob/master/LICENSE)
+- [Simple Icons](https://simpleicons.org) - [CC0 1.0](https://github.com/simple-icons/simple-icons/blob/develop/LICENSE.md)

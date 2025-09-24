@@ -26,15 +26,19 @@ pagerSize = 8
 
 
 [[params.social]]
-  icon = "github"
+  icon = "brand-github"
   name = "My Github"
   url = "https://github.com/fraidev"
 
 [[params.social]]
-  icon = "twitter"
-  name = "Twitter"
-  url = "https://twitter.com/fraidev"
+  icon = "brand-linkedin"
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/fraifelipe/"
 
+[[params.social]]
+  icon = "brand-x"
+  name = "X"
+  url = "https://x.com/fraidev"
 
 [params.style]
   darkColor = "#212121"
