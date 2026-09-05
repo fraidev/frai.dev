@@ -1,0 +1,54 @@
+{{ define "main" }}
+{{- $home := slice (dict "name" "~" "url" "/") }}
+{{- $c := hugo.Data.contributions }}
+<div class="panes is-multi" id="panes">
+  <div class="col col-posts">
+    <section class="pane" data-title="posts" data-index="0">
+      <span class="pane-title">0: posts</span>
+      <div class="pane-body">
+        {{ partial "prompt.html" (dict "dir" $home "cmd" "ls -lt" "arg" (dict "name" "posts/" "url" "/posts/")) }}
+        {{- $posts := where site.RegularPages "Section" "posts" }}
+        {{ partial "post-list.html" (dict "pages" ($posts | first 10) "total" (len $posts) "tags" false) }}
+        {{- if gt (len $posts) 10 }}
+        <p class="more dim">&hellip; {{ sub (len $posts) 10 }} more in <a href="/posts/">posts/</a></p>
+        {{- end }}
+        {{ partial "idle-prompt.html" . }}
+      </div>
+    </section>
+  </div>
+  <div class="col col-main">
+    <section class="pane is-active" data-title="about" data-index="1">
+      <span class="pane-title">1: about</span>
+      <div class="pane-body">
+        {{- with site.GetPage "/about" }}
+        {{ partial "prompt.html" (dict "dir" $home "cmd" "head" "arg" (dict "name" "about.md" "url" .RelPermalink)) }}
+        {{ partial "about-card.html" (dict "page" . "summary" true) }}
+        {{- end }}
+      </div>
+    </section>
+    <section class="pane" data-title="projects" data-index="2">
+      <span class="pane-title">2: projects</span>
+      <div class="pane-body">
+        {{- with site.GetPage "/projects" }}
+        {{ partial "prompt.html" (dict "dir" $home "cmd" "ls" "arg" (dict "name" "projects/" "url" .RelPermalink)) }}
+        {{ partial "project-list.html" (dict "pages" .RegularPages) }}
+        {{- end }}
+      </div>
+    </section>
+    {{- with $c }}
+    <section class="pane" data-title="contributions" data-index="3">
+      <span class="pane-title">3: contributions</span>
+      <div class="pane-body">
+        {{ partial "prompt.html" (dict "dir" $home "cmd" "git shortlog -sn") }}
+        <ol class="shortlog">
+          {{- range first 8 .repos }}
+          <li><span class="shortlog-n">{{ .count }}</span><a class="shortlog-name" href="{{ .url }}" rel="noopener">{{ .name }}</a></li>
+          {{- end }}
+        </ol>
+        <p class="shortlog-more dim">{{ if gt (len .repos) 8 }}+ {{ sub (len .repos) 8 }} more. {{ end }}{{ .total }} merged PRs in <a href="/contributions/">contributions.md</a></p>
+      </div>
+    </section>
+    {{- end }}
+  </div>
+</div>
+{{ end }}

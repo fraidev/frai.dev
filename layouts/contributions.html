@@ -1,0 +1,41 @@
+{{ define "main" }}
+{{- $home := slice (dict "name" "~" "url" "/") }}
+{{- $c := hugo.Data.contributions }}
+{{ partial "prompt.html" (dict "dir" $home "cmd" "cat" "arg" (dict "name" "contributions.md" "url" .RelPermalink)) }}
+<article class="contrib">
+  <h1 class="sr-only">{{ .Title }}</h1>
+  <div class="prose">
+{{ .Content }}
+  </div>
+  {{- $first := "" }}{{ $last := "" }}
+  {{- range $c.repos }}{{ if or (eq $first "") (lt .first $first) }}{{ $first = .first }}{{ end }}{{ if gt .last $last }}{{ $last = .last }}{{ end }}{{ end }}
+  <p class="contrib-total dim">{{ $c.total }} merged pull requests on GitHub, {{ substr $first 0 4 }} to {{ substr $last 0 4 }}. the highlights, by repository:</p>
+  <div class="repos">
+  {{- range $c.repos }}
+    <details class="repo">
+      <summary>
+        <span class="repo-name">{{ .name }}</span>
+        <span class="repo-count dim">{{ .count }} {{ if eq .kind "commits" }}commits{{ else }}PR{{ if ne (int .count) 1 }}s{{ end }}{{ end }}</span>
+        <span class="repo-dates dim">{{ substr .first 0 7 }} &rarr; {{ substr .last 0 7 }}</span>
+      </summary>
+      {{- if eq .kind "commits" }}
+      <p class="repo-note">author and maintainer. {{ .count }} commits straight to main, so no pull requests to list.</p>
+      <p class="repo-link dim">&rarr; <a href="{{ .url }}/commits?author={{ site.Params.github }}" rel="noopener">the commits on github</a></p>
+      {{- else }}
+      <ul class="prs" role="list">
+        {{- range .prs }}
+        <li class="pr">
+          <a class="pr-num" href="{{ .url }}" rel="noopener">#{{ .number }}</a>
+          <a class="pr-title" href="{{ .url }}" rel="noopener">{{ .title }}</a>
+          <time class="pr-date dim" datetime="{{ .merged }}">{{ .merged }}</time>
+        </li>
+        {{- end }}
+      </ul>
+      <p class="repo-link dim">&rarr; <a href="{{ .url }}/pulls?q=is%3Apr+author%3A{{ site.Params.github }}+is%3Amerged" rel="noopener">all of them on github</a></p>
+      {{- end }}
+    </details>
+  {{- end }}
+  </div>
+</article>
+{{ partial "idle-prompt.html" . }}
+{{ end }}

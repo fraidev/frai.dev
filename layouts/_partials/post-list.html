@@ -1,0 +1,12 @@
+{{- /* pages: page collection; total: int; tags: bool (default true) */ -}}
+<ul class="ls" role="list">
+  <li class="ls-total dim">total {{ .total }}</li>
+  {{- range .pages }}
+  <li class="ls-row">
+    <time class="ls-date dim" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+    <span class="ls-size dim" title="{{ .WordCount }} words">{{ .ReadingTime }}m</span>
+    <a class="ls-name" href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ if ne $.tags false }}<span class="ls-tags">{{ range .GetTerms "tags" }}<a class="tag" href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a>{{ end }}</span>{{ end }}
+  </li>
+  {{- end }}
+</ul>

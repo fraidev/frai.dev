@@ -1,0 +1,20 @@
+import { initTheme } from './theme.js';
+import { initUI } from './ui.js';
+import { initParty } from './party.js';
+import { initVim } from './vim.js';
+import { initTerm } from './term.js';
+import { initKeys } from './keys.js';
+import { initClock, initCopy, initNotFound, initConsole } from './misc.js';
+import { initPanes } from './panes.js';
+
+initTheme();
+initUI();
+initParty();
+initVim();
+initTerm();
+initKeys();
+initPanes();
+initClock();
+initCopy();
+initNotFound();
+initConsole();

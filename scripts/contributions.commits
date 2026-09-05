@@ -1,0 +1,3 @@
+# repositories to include by commit count instead of pull requests
+# (work pushed straight to the main branch), one per line.
+marigold-dev/tzproxy

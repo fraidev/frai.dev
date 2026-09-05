@@ -1,0 +1,5 @@
+{{- $r := transform.HighlightCodeBlock . -}}
+<div class="codeblock">
+  <div class="codeblock-bar"><span class="codeblock-lang">{{ .Type | default "text" }}</span><button class="codeblock-copy" type="button" aria-label="copy code">copy</button></div>
+  {{ $r.Wrapped }}
+</div>

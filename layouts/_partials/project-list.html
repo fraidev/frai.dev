@@ -1,0 +1,11 @@
+{{- /* pages: project pages */ -}}
+<ul class="ls ls-proj" role="list">
+  {{- range .pages }}
+  <li class="ls-row">
+    <a class="dir" href="{{ .RelPermalink }}">{{ .Title }}/</a>
+    <span class="ls-lang dim">{{ .Params.lang }}</span>
+    <span class="ls-desc">{{ .Description }}</span>
+    {{ with .Params.repo }}<a class="ls-repo dim" href="{{ . }}" rel="noopener">github &nearr;</a>{{ end }}
+  </li>
+  {{- end }}
+</ul>

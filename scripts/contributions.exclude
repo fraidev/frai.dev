@@ -1,0 +1,26 @@
+# repositories left out of data/contributions.json, one per line.
+# the total still counts their pull requests.
+fluvio-community/fluvio-docs
+fluvio-community/fluvio-client-python
+fluvio-community/sql-connector
+fluvio-community/http-source-connector
+fluvio-community/future-aio
+fluvio-community/mqtt-connector
+fluvio-community/fluvio-web
+fluvio-community/flv-tls-proxy
+fluvio-community/http-sink-connector
+fluvio-community/kafka-connector
+fluvio-community/k8-api
+infinyon/dedup-bloom-filter
+infinyon/fluvio-website
+infinyon/labs-csv-json-sm
+marigold-dev/deku
+marigold-dev/tzvote
+marigold-dev/deku-tester
+marigold-dev/deku-wasm-react
+marigold-dev/tezos-sidecar
+marigold-dev/tombola-demo
+marigold-dev/tzportal
+marigold-dev/tzsafe-ui
+marigold-dev/why-is-tezos-best
+tezosweb/tezos-ecosystem-projects

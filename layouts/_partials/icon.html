@@ -1,0 +1,4 @@
+{{- /* name: icon file name in assets/icons */ -}}
+{{- with resources.Get (printf "icons/%s.svg" .name) -}}
+{{- .Content | replaceRE "<title>[^<]*</title>" "" | replaceRE "<svg " "<svg class=\"icon\" aria-hidden=\"true\" fill=\"currentColor\" " | safeHTML -}}
+{{- end -}}

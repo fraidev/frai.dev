@@ -1,0 +1,24 @@
+{{ define "main" }}
+{{- $dir := slice (dict "name" "~" "url" "/") (dict "name" .Section "url" (printf "/%s/" .Section)) }}
+{{ partial "prompt.html" (dict "dir" $dir "cmd" "cat" "arg" (dict "name" (printf "%s.md" .File.ContentBaseName) "url" .RelPermalink)) }}
+<article class="post">
+  <header class="fm">
+    <span class="fm-fence dim" aria-hidden="true">+++</span>
+    <h1 class="fm-title">{{ .Title }}</h1>
+    <p class="fm-line"><span class="fm-key">date</span> = <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time></p>
+    {{- with .GetTerms "tags" }}
+    <p class="fm-line"><span class="fm-key">tags</span> = [{{ range $i, $t := . }}{{ if $i }}, {{ end }}<a class="tag" href="{{ $t.RelPermalink }}">"{{ $t.LinkTitle }}"</a>{{ end }}]</p>
+    {{- end }}
+    <p class="fm-line"><span class="fm-key">words</span> = {{ .WordCount }} <span class="dim"># {{ .ReadingTime }} min read</span></p>
+    <span class="fm-fence dim" aria-hidden="true">+++</span>
+  </header>
+  <div class="prose">
+{{ .Content }}
+  </div>
+</article>
+<nav class="post-nav" aria-label="Post navigation">
+  {{ with .PrevInSection }}<a class="post-nav-older" id="nav-older" href="{{ .RelPermalink }}"><span class="dim">h &larr; older</span><br>{{ .Title }}</a>{{ else }}<span></span>{{ end }}
+  {{ with .NextInSection }}<a class="post-nav-newer" id="nav-newer" href="{{ .RelPermalink }}"><span class="dim">newer &rarr; l</span><br>{{ .Title }}</a>{{ end }}
+</nav>
+{{ partial "idle-prompt.html" . }}
+{{ end }}

@@ -1,0 +1,7 @@
+{{ define "main" }}
+{{- $home := slice (dict "name" "~" "url" "/") }}
+{{ partial "prompt.html" (dict "dir" $home "cmd" "ls -l" "arg" (dict "name" "projects/" "url" .RelPermalink)) }}
+{{ with .Content }}<div class="prose">{{ . }}</div>{{ end }}
+{{ partial "project-list.html" (dict "pages" .RegularPages) }}
+{{ partial "idle-prompt.html" . }}
+{{ end }}

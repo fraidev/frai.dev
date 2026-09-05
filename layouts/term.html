@@ -1,0 +1,8 @@
+{{ define "main" }}
+{{- $dir := slice (dict "name" "~" "url" "/") (dict "name" "tags" "url" "/tags/") }}
+{{ partial "prompt.html" (dict "dir" $dir "cmd" "ls -lt" "arg" (dict "name" (printf "%s/" .Data.Term) "url" .RelPermalink)) }}
+{{- $p := .Paginate .Pages }}
+{{ partial "post-list.html" (dict "pages" $p.Pages "total" (len .Pages)) }}
+{{ partial "pagination.html" . }}
+{{ partial "idle-prompt.html" . }}
+{{ end }}

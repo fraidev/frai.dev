@@ -1,0 +1,16 @@
+{{- /* page: the about page; summary: bool */ -}}
+<section class="about-card">
+  <button class="about-avatar" id="avatar" type="button" aria-label="{{ site.Params.author }}">
+    <img src="{{ site.Params.avatar }}" alt="" width="72" height="72">
+  </button>
+  <div class="about-body">
+    <p class="about-name">{{ site.Params.author }} <span class="dim">({{ site.Params.handle }})</span></p>
+    {{- if .summary }}
+    <p class="about-summary">{{ .page.Summary }}</p>
+    {{- end }}
+    <p class="about-links">{{ range site.Params.links }}<a href="{{ .url }}"{{ if hasPrefix .url "http" }} rel="me noopener"{{ end }}>{{ partial "icon.html" (dict "name" .name) }}{{ .name }}</a>{{ end }}</p>
+    {{- if .summary }}
+    <p class="about-more dim"># the rest is in <a href="{{ .page.RelPermalink }}">about.md</a>{{ with hugo.Data.contributions }}, the pull requests in <a href="/contributions/">contributions.md</a>{{ end }}</p>
+    {{- end }}
+  </div>
+</section>

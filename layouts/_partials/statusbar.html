@@ -1,0 +1,15 @@
+<nav class="tmux" aria-label="Main">
+  <button class="tmux-session" id="tmux-session" type="button" title="open shell (!)">[{{ site.Params.handle }}]</button>
+  <ul class="tmux-wins" role="list">
+  {{- range $i, $m := site.Menus.main }}
+    {{- $active := or (eq $.RelPermalink $m.URL) (and (ne $m.URL "/") (hasPrefix $.RelPermalink $m.URL)) }}
+    <li><a class="tmux-win{{ if $active }} is-active{{ end }}" href="{{ $m.URL }}"{{ if $active }} aria-current="page"{{ end }}>{{ $i }}:{{ $m.Name }}{{ if $active }}*{{ end }}</a></li>
+  {{- end }}
+  </ul>
+  <div class="tmux-right">
+    <span class="tmux-hint dim">! shell &middot; : cmd &middot; ? help</span>
+    <button id="theme-toggle" class="tmux-theme" type="button" aria-label="toggle background">bg=<span id="theme-name">dark</span></button>
+    <span class="tmux-host">"{{ site.Params.host }}"</span>
+    <time id="clock" class="tmux-clock" datetime="{{ now.Format "2006-01-02T15:04" }}">{{ now.Format "15:04 02-Jan-06" }}</time>
+  </div>
+</nav>

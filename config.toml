@@ -1,47 +1,102 @@
 baseURL = "https://frai.dev/"
-languageCode = "en-us"
-title = "Frai"
-theme = "m10c"
+locale = "en-US"
+title = "frai"
+timeZone = "America/Sao_Paulo"
+enableRobotsTXT = true
+capitalizeListTitles = false
+pluralizeListTitles = false
+
 [pagination]
-pagerSize = 8
+  pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS"]
+  section = ["HTML", "RSS"]
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark.renderer]
+    unsafe = true
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = false
+    lineNos = false
 
 [menu]
   [[menu.main]]
     identifier = "home"
-    name = "Home"
+    name = "home"
     url = "/"
     weight = 1
   [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
+    identifier = "about"
+    name = "about"
+    url = "/about/"
     weight = 2
+  [[menu.main]]
+    identifier = "projects"
+    name = "projects"
+    url = "/projects/"
+    weight = 3
+  [[menu.main]]
+    identifier = "contributions"
+    name = "contributions"
+    url = "/contributions/"
+    weight = 4
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    url = "/posts/"
+    weight = 5
+  [[menu.main]]
+    identifier = "tags"
+    name = "tags"
+    url = "/tags/"
+    weight = 6
 
 [params]
-  avatar = "https://avatars.githubusercontent.com/u/25258368?v=4"
-  author = "Frai"
-  description = "Fullstack developer and Computer Engineering."
-  menu_item_separator = " - "
-  favicon = "/favicon.ico"
+  author = "Felipe Cardozo"
+  handle = "frai"
+  github = "fraidev"
+  host = "frai.dev"
+  description = "Felipe Cardozo"
+  plan = "git gud"
+  avatar = "/avatar.jpg"
+  images = ["/avatar.jpg"]
 
+  # Palette. Everything on the site derives from these five colors.
+  [params.style]
+    dark = "#212121"
+    light = "#f5e3e0"
+    lightest = "#f5f5f5"
+    primary = "#219fd5"
+    gold = "#e3b44a"
 
-[[params.social]]
-  icon = "brand-github"
-  name = "My Github"
-  url = "https://github.com/fraidev"
+  # Party status card. Level 1 starts at epoch, one level per year,
+  # EXP is days since epoch, LP is the number of merged pull requests.
+  [params.ffxii]
+    name = "Frai"
+    image = "/party.jpg"
+    epoch = "2017-01-21"
 
-[[params.social]]
-  icon = "brand-linkedin"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/in/fraifelipe/"
+  [params.social]
+    twitter = "fraidev"
 
-[[params.social]]
-  icon = "brand-x"
-  name = "X"
-  url = "https://x.com/fraidev"
-
-[params.style]
-  darkColor = "#212121"
-  lightColor = "#f5e3e0"
-  lightestColor = "#f5f5f5"
-  primaryColor = "#219fd5"
+  [[params.links]]
+    name = "github"
+    url = "https://github.com/fraidev"
+  [[params.links]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/fraifelipe/"
+  [[params.links]]
+    name = "x"
+    url = "https://x.com/fraidev"
+  [[params.links]]
+    name = "bsky"
+    url = "https://bsky.app/profile/frai.dev"
+  [[params.links]]
+    name = "rss"
+    url = "/index.xml"

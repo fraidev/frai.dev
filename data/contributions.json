@@ -1,0 +1,2229 @@
+{
+ "generated": "2026-09-04",
+ "total": 463,
+ "repos": [
+  {
+   "name": "fluvio-community/fluvio",
+   "url": "https://github.com/fluvio-community/fluvio",
+   "kind": "prs",
+   "count": 186,
+   "first": "2024-02-05",
+   "last": "2025-08-04",
+   "prs": [
+    {
+     "number": 4591,
+     "title": "docs: add simple fluvio path again in README",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4591",
+     "merged": "2025-08-04"
+    },
+    {
+     "number": 4590,
+     "title": "chore: pos release fluvio 0.18.1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4590",
+     "merged": "2025-08-03"
+    },
+    {
+     "number": 4582,
+     "title": "chore: release fluvio v0.18.1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4582",
+     "merged": "2025-07-04"
+    },
+    {
+     "number": 4583,
+     "title": "chore: bump up future fluvio to 0.8.3",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4583",
+     "merged": "2025-07-03"
+    },
+    {
+     "number": 4580,
+     "title": "chore: rename fluvio rustls features",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4580",
+     "merged": "2025-06-30"
+    },
+    {
+     "number": 4579,
+     "title": "chore: pre release fluvio to v0.18.1-dev-4",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4579",
+     "merged": "2025-06-30"
+    },
+    {
+     "number": 4578,
+     "title": "chore: pre release fluvio to v0.18.1-dev-3",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4578",
+     "merged": "2025-06-30"
+    },
+    {
+     "number": 4574,
+     "title": "chore: ensure that crypto provider is set",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4574",
+     "merged": "2025-06-30"
+    },
+    {
+     "number": 4576,
+     "title": "chore: send empty msgs from SPU as ping again",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4576",
+     "merged": "2025-06-28"
+    },
+    {
+     "number": 4575,
+     "title": "chore: solve 1.88 clippy new rules",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4575",
+     "merged": "2025-06-27"
+    },
+    {
+     "number": 4571,
+     "title": "chore: bump up to 0.18.1-dev-2",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4571",
+     "merged": "2025-06-24"
+    },
+    {
+     "number": 4569,
+     "title": "chore: use rustls instead openssl",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4569",
+     "merged": "2025-06-24"
+    },
+    {
+     "number": 4559,
+     "title": "fix: produce only on available partitions",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4559",
+     "merged": "2025-06-18"
+    },
+    {
+     "number": 4561,
+     "title": "chore: pos release fluvio v0.18.0",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4561",
+     "merged": "2025-06-16"
+    },
+    {
+     "number": 4560,
+     "title": "fix: check crate workspace instead each crate",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4560",
+     "merged": "2025-06-16"
+    },
+    {
+     "number": 4557,
+     "title": "chore: version specified when publishing",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4557",
+     "merged": "2025-06-10"
+    },
+    {
+     "number": 4555,
+     "title": "chore: release fluvio v0.18.0",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4555",
+     "merged": "2025-06-10"
+    },
+    {
+     "number": 4554,
+     "title": "chore: pre release fluvio to v0.18.0-dev-1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4554",
+     "merged": "2025-06-09"
+    },
+    {
+     "number": 4552,
+     "title": "chore: bump up fluvio crates to 0.50.0",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4552",
+     "merged": "2025-06-09"
+    },
+    {
+     "number": 4549,
+     "title": "chore: centrilize paths in root Cargo.toml",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4549",
+     "merged": "2025-06-05"
+    },
+    {
+     "number": 4548,
+     "title": "chore: share workspace version",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4548",
+     "merged": "2025-06-04"
+    },
+    {
+     "number": 4544,
+     "title": "chore: use tokio as runtime and update future-fluvio",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4544",
+     "merged": "2025-06-03"
+    },
+    {
+     "number": 4540,
+     "title": "chore: bump up async-channel to v2.3.1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4540",
+     "merged": "2025-05-29"
+    },
+    {
+     "number": 4539,
+     "title": "chore: update rust edition to 2024",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4539",
+     "merged": "2025-05-27"
+    },
+    {
+     "number": 4533,
+     "title": "chore: pos release fluvio v0.17.3",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4533",
+     "merged": "2025-05-23"
+    },
+    {
+     "number": 4531,
+     "title": "chore: release fluvio 0.17.3",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4531",
+     "merged": "2025-05-13"
+    },
+    {
+     "number": 4529,
+     "title": "fix: OutOfSpace partition status returning to online",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4529",
+     "merged": "2025-05-10"
+    },
+    {
+     "number": 4527,
+     "title": "fix: prevent double free on storage error",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4527",
+     "merged": "2025-05-09"
+    },
+    {
+     "number": 4521,
+     "title": "fix: out of space problems",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4521",
+     "merged": "2025-05-08"
+    },
+    {
+     "number": 4522,
+     "title": "fix: consume large and incomplete batches",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4522",
+     "merged": "2025-05-03"
+    },
+    {
+     "number": 4520,
+     "title": "chore: pos release fluvio v0.17.2",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4520",
+     "merged": "2025-05-01"
+    },
+    {
+     "number": 4518,
+     "title": "chore: release fluvio 0.17.2",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4518",
+     "merged": "2025-04-30"
+    },
+    {
+     "number": 4504,
+     "title": "fix: auto management odd pauses in consumer offset",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4504",
+     "merged": "2025-04-29"
+    },
+    {
+     "number": 4511,
+     "title": "fix: offset evicted on retry",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4511",
+     "merged": "2025-04-22"
+    },
+    {
+     "number": 4512,
+     "title": "chore: use right offset request in comments",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4512",
+     "merged": "2025-04-18"
+    },
+    {
+     "number": 4500,
+     "title": "fix: consumer offset end",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4500",
+     "merged": "2025-04-16"
+    },
+    {
+     "number": 4496,
+     "title": "chore: add key record parameter to smdk test",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4496",
+     "merged": "2025-04-09"
+    },
+    {
+     "number": 4491,
+     "title": "chore: pos release fluvio 0.17.1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4491",
+     "merged": "2025-04-07"
+    },
+    {
+     "number": 4486,
+     "title": "chore: release fluvio 0.17.1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4486",
+     "merged": "2025-04-03"
+    },
+    {
+     "number": 4484,
+     "title": "chore: release fluvio 0.17.0",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4484",
+     "merged": "2025-04-03"
+    },
+    {
+     "number": 4482,
+     "title": "chore: pre release fluvio 0.17.0-dev-3",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4482",
+     "merged": "2025-04-02"
+    },
+    {
+     "number": 4479,
+     "title": "chore: set SPU_PEER_MAX_BYTES to 10mb",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4479",
+     "merged": "2025-04-02"
+    },
+    {
+     "number": 4477,
+     "title": "chore: bump FLV_PEER_MAX_BYTES to 1gb",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4477",
+     "merged": "2025-04-02"
+    },
+    {
+     "number": 4474,
+     "title": "fix: replication stuck when syncing large batches",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4474",
+     "merged": "2025-04-01"
+    },
+    {
+     "number": 4462,
+     "title": "chore: pre release fluvio 0.17.0-dev-2",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4462",
+     "merged": "2025-03-20"
+    },
+    {
+     "number": 4461,
+     "title": "chore: pre release fluvio 0.17.0-dev-1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4461",
+     "merged": "2025-03-19"
+    },
+    {
+     "number": 4459,
+     "title": "fix: hard delete consumer after topic delete",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4459",
+     "merged": "2025-03-19"
+    },
+    {
+     "number": 4450,
+     "title": "fix: recalculate replicas on timeout and rejection",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4450",
+     "merged": "2025-03-18"
+    },
+    {
+     "number": 4448,
+     "title": "fix: delete consumer after topic delete",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4448",
+     "merged": "2025-03-14"
+    },
+    {
+     "number": 4443,
+     "title": "chore: make dedup count required",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4443",
+     "merged": "2025-03-11"
+    },
+    {
+     "number": 4441,
+     "title": "fix: reconnect producer when spu is down",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4441",
+     "merged": "2025-03-11"
+    },
+    {
+     "number": 4430,
+     "title": "fix: reconnect log with right offset",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4430",
+     "merged": "2025-03-04"
+    },
+    {
+     "number": 4386,
+     "title": "feat: add deduplicate parameter to create topic using cli",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4386",
+     "merged": "2025-03-04"
+    },
+    {
+     "number": 4424,
+     "title": "chore: pos release fluvio 0.16.1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4424",
+     "merged": "2025-02-28"
+    },
+    {
+     "number": 4419,
+     "title": "chore: release fluvio 0.16.1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4419",
+     "merged": "2025-02-27"
+    },
+    {
+     "number": 4418,
+     "title": "chore: pos release fluvio v0.16.0",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4418",
+     "merged": "2025-02-27"
+    },
+    {
+     "number": 4417,
+     "title": "fix: retry consumer with custom domain connector",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4417",
+     "merged": "2025-02-27"
+    },
+    {
+     "number": 4415,
+     "title": "chore: release fluvio v0.16.0",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4415",
+     "merged": "2025-02-26"
+    },
+    {
+     "number": 4408,
+     "title": "chore: pre release fluvio 0.16.0-dev-2",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4408",
+     "merged": "2025-02-24"
+    },
+    {
+     "number": 4405,
+     "title": "fix: commit and flush retry on other states",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4405",
+     "merged": "2025-02-22"
+    },
+    {
+     "number": 4404,
+     "title": "docs: add description to producer record callback",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4404",
+     "merged": "2025-02-20"
+    },
+    {
+     "number": 4394,
+     "title": "feat: consumer stream should be able to reconnect",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4394",
+     "merged": "2025-02-20"
+    },
+    {
+     "number": 4402,
+     "title": "chore: make offset_commit async",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4402",
+     "merged": "2025-02-19"
+    },
+    {
+     "number": 4384,
+     "title": "chore: pos release fluvio 0.15.2",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4384",
+     "merged": "2025-02-07"
+    },
+    {
+     "number": 4383,
+     "title": "chore: add description to benchmark command",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4383",
+     "merged": "2025-02-07"
+    },
+    {
+     "number": 4381,
+     "title": "chore: release fluvio 0.15.2",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4381",
+     "merged": "2025-02-06"
+    },
+    {
+     "number": 4375,
+     "title": "chore: produce config builder as mutable",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4375",
+     "merged": "2025-02-04"
+    },
+    {
+     "number": 4376,
+     "title": "fix: record too large error",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4376",
+     "merged": "2025-02-02"
+    },
+    {
+     "number": 4374,
+     "title": "chore: pos release fluvio 0.15.1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4374",
+     "merged": "2025-01-30"
+    },
+    {
+     "number": 4371,
+     "title": "chore: release fluvio 0.15.1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4371",
+     "merged": "2025-01-28"
+    },
+    {
+     "number": 4370,
+     "title": "chore: add sleep on upgrade test",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4370",
+     "merged": "2025-01-28"
+    },
+    {
+     "number": 4368,
+     "title": "fix: benchmark delete topic as default",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4368",
+     "merged": "2025-01-28"
+    },
+    {
+     "number": 4367,
+     "title": "fix: fluvio time panicking on wasm",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4367",
+     "merged": "2025-01-28"
+    },
+    {
+     "number": 4366,
+     "title": "chore: pos release fluvio 0.15.0",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4366",
+     "merged": "2025-01-28"
+    },
+    {
+     "number": 4365,
+     "title": "chore: release fluvio 0.15.0",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4365",
+     "merged": "2025-01-25"
+    },
+    {
+     "number": 4363,
+     "title": "feat: add benchmark table again",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4363",
+     "merged": "2025-01-25"
+    },
+    {
+     "number": 4359,
+     "title": "fix: benchmark dead channels",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4359",
+     "merged": "2025-01-25"
+    },
+    {
+     "number": 4356,
+     "title": "fix: benchmark default bytesizes",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4356",
+     "merged": "2025-01-23"
+    },
+    {
+     "number": 4352,
+     "title": "perf: improve index flush",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4352",
+     "merged": "2025-01-22"
+    },
+    {
+     "number": 4350,
+     "title": "test: fix intermittent test replica commit",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4350",
+     "merged": "2025-01-21"
+    },
+    {
+     "number": 4348,
+     "title": "fix: benchmark with multiple producers",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4348",
+     "merged": "2025-01-21"
+    },
+    {
+     "number": 4347,
+     "title": "fix: bytes unit on benchmark",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4347",
+     "merged": "2025-01-21"
+    },
+    {
+     "number": 4340,
+     "title": "feat: add fluvio producer callback",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4340",
+     "merged": "2025-01-21"
+    },
+    {
+     "number": 4338,
+     "title": "feat: add strategy config to fluvio benchmark",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4338",
+     "merged": "2025-01-18"
+    },
+    {
+     "number": 4333,
+     "title": "feat: add latency table on fluvio-benchmark",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4333",
+     "merged": "2025-01-18"
+    },
+    {
+     "number": 4326,
+     "title": "chore: move fbm to fluvio cli",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4326",
+     "merged": "2025-01-16"
+    },
+    {
+     "number": 4319,
+     "title": "chore: fix clippy 1.84",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4319",
+     "merged": "2025-01-14"
+    },
+    {
+     "number": 4312,
+     "title": "chore: release fluvio 0.14.1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4312",
+     "merged": "2025-01-09"
+    },
+    {
+     "number": 4307,
+     "title": "chore: use box future",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4307",
+     "merged": "2025-01-02"
+    },
+    {
+     "number": 4306,
+     "title": "chore: wrap offset_flush return in pin<box<_>>",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4306",
+     "merged": "2024-12-30"
+    },
+    {
+     "number": 4302,
+     "title": "chore: fix how check if a package is uploaded",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4302",
+     "merged": "2024-12-14"
+    },
+    {
+     "number": 4300,
+     "title": "chore: release fluvio 0.14.0",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4300",
+     "merged": "2024-12-14"
+    },
+    {
+     "number": 4299,
+     "title": "Pre release 0.14.0 dev 2",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4299",
+     "merged": "2024-12-14"
+    },
+    {
+     "number": 4298,
+     "title": "fix: add get_action_auth_with_token again",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4298",
+     "merged": "2024-12-13"
+    },
+    {
+     "number": 4295,
+     "title": "doc: update sm readme",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4295",
+     "merged": "2024-12-13"
+    },
+    {
+     "number": 4288,
+     "title": "fix: not allow duplicated connectors",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4288",
+     "merged": "2024-12-09"
+    },
+    {
+     "number": 4286,
+     "title": "fix: use info as default log level for cdk",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4286",
+     "merged": "2024-12-09"
+    },
+    {
+     "number": 4276,
+     "title": "fix: shutdown of the cdk consumer by future not stream",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4276",
+     "merged": "2024-12-06"
+    },
+    {
+     "number": 4273,
+     "title": "fix: shutdown of the cdk consumer",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4273",
+     "merged": "2024-11-26"
+    },
+    {
+     "number": 4275,
+     "title": "chore: use macos-latest on ci",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4275",
+     "merged": "2024-11-25"
+    },
+    {
+     "number": 4272,
+     "title": "chore: un-deprecate stream_batches_with_config",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4272",
+     "merged": "2024-11-22"
+    },
+    {
+     "number": 4268,
+     "title": "feat: add graceful shutdown for consume connectors",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4268",
+     "merged": "2024-11-22"
+    },
+    {
+     "number": 4264,
+     "title": "fix: do not allow connectors offset without id",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4264",
+     "merged": "2024-11-19"
+    },
+    {
+     "number": 4262,
+     "title": "chore: post release 0.13.0",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4262",
+     "merged": "2024-11-19"
+    },
+    {
+     "number": 4261,
+     "title": "chore: bump fluvio-socket to 0.15.0",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4261",
+     "merged": "2024-11-15"
+    },
+    {
+     "number": 4260,
+     "title": "chore: solve bin fluvio conflicts in setup_fluvio_cluster",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4260",
+     "merged": "2024-11-15"
+    },
+    {
+     "number": 4257,
+     "title": "chore: release fluvio 0.13.0",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4257",
+     "merged": "2024-11-15"
+    },
+    {
+     "number": 4258,
+     "title": "chore: dev cd using right fluvio binary",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4258",
+     "merged": "2024-11-14"
+    },
+    {
+     "number": 4254,
+     "title": "chore: revert fluvio to v0.24.0",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4254",
+     "merged": "2024-11-13"
+    },
+    {
+     "number": 4251,
+     "title": "feat: show actual record size when throw maximum request size error",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4251",
+     "merged": "2024-11-12"
+    },
+    {
+     "number": 4248,
+     "title": "fix: list API compatibility issues with old versions",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4248",
+     "merged": "2024-11-12"
+    },
+    {
+     "number": 4238,
+     "title": "chore: typo successful",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4238",
+     "merged": "2024-11-12"
+    },
+    {
+     "number": 4247,
+     "title": "fix: compatibility issues with old versions",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4247",
+     "merged": "2024-11-11"
+    },
+    {
+     "number": 4243,
+     "title": "feat: support producing by mirror",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4243",
+     "merged": "2024-11-07"
+    },
+    {
+     "number": 4242,
+     "title": "chore: pre-release version bump 0.13.0-dev-3",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4242",
+     "merged": "2024-11-07"
+    },
+    {
+     "number": 4241,
+     "title": "Support producing to specific partition",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4241",
+     "merged": "2024-11-07"
+    },
+    {
+     "number": 4239,
+     "title": "fix: mirror compatibility with old versions",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4239",
+     "merged": "2024-11-06"
+    },
+    {
+     "number": 4233,
+     "title": "doc: typo about fluvio topic in docker examples",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4233",
+     "merged": "2024-11-04"
+    },
+    {
+     "number": 4231,
+     "title": "feat: home to edge mirroring",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4231",
+     "merged": "2024-11-04"
+    },
+    {
+     "number": 4229,
+     "title": "feat: create system topic",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4229",
+     "merged": "2024-11-02"
+    },
+    {
+     "number": 4230,
+     "title": "chore: post release fluvio 0.12.1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4230",
+     "merged": "2024-11-01"
+    },
+    {
+     "number": 4226,
+     "title": "chore: release fluvio 0.12.1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4226",
+     "merged": "2024-10-31"
+    },
+    {
+     "number": 4225,
+     "title": "chore: prerelease 0.12.1-dev-1",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4225",
+     "merged": "2024-10-31"
+    },
+    {
+     "number": 4219,
+     "title": "fix: link_parent more realible and delete topic partitions",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4219",
+     "merged": "2024-10-29"
+    },
+    {
+     "number": 4202,
+     "title": "docs: produce message size rfc",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4202",
+     "merged": "2024-10-21"
+    },
+    {
+     "number": 4195,
+     "title": "feat: fix record size larger than batch size",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4195",
+     "merged": "2024-10-15"
+    },
+    {
+     "number": 4196,
+     "title": "chore: decrease exponential timeout of mirroring",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4196",
+     "merged": "2024-09-28"
+    },
+    {
+     "number": 4188,
+     "title": "chore: add fluvio docs at the release checklist",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4188",
+     "merged": "2024-09-17"
+    },
+    {
+     "number": 4187,
+     "title": "chore: 0.11.12 post-release",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4187",
+     "merged": "2024-09-17"
+    },
+    {
+     "number": 4184,
+     "title": "chore: make fluvio version works when publishing",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4184",
+     "merged": "2024-09-14"
+    },
+    {
+     "number": 4183,
+     "title": "chore: bump fluvio to v0.11.12",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4183",
+     "merged": "2024-09-13"
+    },
+    {
+     "number": 4182,
+     "title": "fix: upgrade cluster cd release",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4182",
+     "merged": "2024-09-13"
+    },
+    {
+     "number": 4175,
+     "title": "fix: concurrency problems at local metadata store",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4175",
+     "merged": "2024-09-12"
+    },
+    {
+     "number": 4176,
+     "title": "chore: add weekly ci",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4176",
+     "merged": "2024-09-11"
+    },
+    {
+     "number": 4163,
+     "title": "fix: update sysinfo and fix fd leak on linux",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4163",
+     "merged": "2024-09-03"
+    },
+    {
+     "number": 4158,
+     "title": "fix: disable local upgrade test until fix it",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4158",
+     "merged": "2024-09-02"
+    },
+    {
+     "number": 4149,
+     "title": "fix: better error when watch api versions are not compatible",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4149",
+     "merged": "2024-08-23"
+    },
+    {
+     "number": 4146,
+     "title": "chore: clean up not used dependencies",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4146",
+     "merged": "2024-08-23"
+    },
+    {
+     "number": 4138,
+     "title": "feat: upgrade cluster for local",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4138",
+     "merged": "2024-08-19"
+    },
+    {
+     "number": 4120,
+     "title": "feat: update mirror status when find errors on spu",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4120",
+     "merged": "2024-08-14"
+    },
+    {
+     "number": 4135,
+     "title": "chore: update wasmtime and wasi-common to 23.0.2",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4135",
+     "merged": "2024-08-13"
+    },
+    {
+     "number": 4130,
+     "title": "chore: 0.11.11 post-release",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4130",
+     "merged": "2024-08-06"
+    },
+    {
+     "number": 4127,
+     "title": "chore: bump fluvio to v0.11.11",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4127",
+     "merged": "2024-08-05"
+    },
+    {
+     "number": 4121,
+     "title": "fix: enable tracing subscribe again",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4121",
+     "merged": "2024-07-28"
+    },
+    {
+     "number": 4116,
+     "title": "chore: 0.11.10 post-release",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4116",
+     "merged": "2024-07-23"
+    },
+    {
+     "number": 4115,
+     "title": "chore: bump fluvio-smartmodule",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4115",
+     "merged": "2024-07-23"
+    },
+    {
+     "number": 4113,
+     "title": "chore: bump fluvio to v0.11.10",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4113",
+     "merged": "2024-07-22"
+    },
+    {
+     "number": 4107,
+     "title": "chore(bump): pre-release bump changes",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4107",
+     "merged": "2024-07-18"
+    },
+    {
+     "number": 4104,
+     "title": "fix: load replica size",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4104",
+     "merged": "2024-07-17"
+    },
+    {
+     "number": 4097,
+     "title": "feat: add mirror remote",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4097",
+     "merged": "2024-07-12"
+    },
+    {
+     "number": 4090,
+     "title": "fix: produce recognize new partitions",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4090",
+     "merged": "2024-07-12"
+    },
+    {
+     "number": 4094,
+     "title": "Fix delete topic partitions",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4094",
+     "merged": "2024-07-04"
+    },
+    {
+     "number": 4092,
+     "title": "chore: access local metadata without k8 flag",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4092",
+     "merged": "2024-07-02"
+    },
+    {
+     "number": 4083,
+     "title": "fix: spu connections on kubernetes",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4083",
+     "merged": "2024-06-27"
+    },
+    {
+     "number": 4080,
+     "title": "Fix add partition not found",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4080",
+     "merged": "2024-06-25"
+    },
+    {
+     "number": 4078,
+     "title": "fix: mirror apply description",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4078",
+     "merged": "2024-06-25"
+    },
+    {
+     "number": 4065,
+     "title": "feat: add partitions",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4065",
+     "merged": "2024-06-24"
+    },
+    {
+     "number": 4076,
+     "title": "chore: add update commands for public api requests",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4076",
+     "merged": "2024-06-22"
+    },
+    {
+     "number": 4075,
+     "title": "docs: add partition prd",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4075",
+     "merged": "2024-06-22"
+    },
+    {
+     "number": 4056,
+     "title": "feat: add sni prefix on spu to spu",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4056",
+     "merged": "2024-06-04"
+    },
+    {
+     "number": 4048,
+     "title": "feat: add consumer --mirror argument to consume only from the selected",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4048",
+     "merged": "2024-05-31"
+    },
+    {
+     "number": 4047,
+     "title": "chore: show remote and home cmds",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4047",
+     "merged": "2024-05-30"
+    },
+    {
+     "number": 4046,
+     "title": "fix: disallow delete topic from remote",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4046",
+     "merged": "2024-05-30"
+    },
+    {
+     "number": 4029,
+     "title": "fix: disallow produce mirror topic from home",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4029",
+     "merged": "2024-05-30"
+    },
+    {
+     "number": 4030,
+     "title": "feat: deleting remote topics when delete them on home.",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4030",
+     "merged": "2024-05-29"
+    },
+    {
+     "number": 4028,
+     "title": "test: add mirroring e2e test",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4028",
+     "merged": "2024-05-29"
+    },
+    {
+     "number": 4033,
+     "title": "feat: add sc opts to cluster start",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4033",
+     "merged": "2024-05-28"
+    },
+    {
+     "number": 4024,
+     "title": "fix: action urn implemented as individual objects",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4024",
+     "merged": "2024-05-23"
+    },
+    {
+     "number": 4023,
+     "title": "chore: update time to 0.3.36",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4023",
+     "merged": "2024-05-23"
+    },
+    {
+     "number": 4022,
+     "title": "feat: tls and authorization on SPU mirroring",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4022",
+     "merged": "2024-05-23"
+    },
+    {
+     "number": 4021,
+     "title": "feat: instance level authorization for basic authorization",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4021",
+     "merged": "2024-05-23"
+    },
+    {
+     "number": 4017,
+     "title": "feat: tls and authorization on SC mirroring",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4017",
+     "merged": "2024-05-22"
+    },
+    {
+     "number": 4016,
+     "title": "feat: export mirror file with tls",
+     "url": "https://github.com/fluvio-community/fluvio/pull/4016",
+     "merged": "2024-05-22"
+    },
+    {
+     "number": 3956,
+     "title": "feat: spu-to-spu mirroring connection",
+     "url": "https://github.com/fluvio-community/fluvio/pull/3956",
+     "merged": "2024-05-06"
+    },
+    {
+     "number": 3986,
+     "title": "chore: fix rules of clippy 1.78.0",
+     "url": "https://github.com/fluvio-community/fluvio/pull/3986",
+     "merged": "2024-05-02"
+    },
+    {
+     "number": 3979,
+     "title": "chore: add endpoint field in mirror",
+     "url": "https://github.com/fluvio-community/fluvio/pull/3979",
+     "merged": "2024-05-02"
+    },
+    {
+     "number": 3946,
+     "title": "feat: sc-to-sc mirroring connection",
+     "url": "https://github.com/fluvio-community/fluvio/pull/3946",
+     "merged": "2024-04-27"
+    },
+    {
+     "number": 3962,
+     "title": "feat: add cmd to create mirror topics",
+     "url": "https://github.com/fluvio-community/fluvio/pull/3962",
+     "merged": "2024-04-25"
+    },
+    {
+     "number": 3966,
+     "title": "chore: rename remote, edge and core to mirror, remote and home",
+     "url": "https://github.com/fluvio-community/fluvio/pull/3966",
+     "merged": "2024-04-24"
+    },
+    {
+     "number": 3958,
+     "title": "chore: rename SpuSocket to StreamSocket",
+     "url": "https://github.com/fluvio-community/fluvio/pull/3958",
+     "merged": "2024-04-24"
+    },
+    {
+     "number": 3960,
+     "title": "fix: use fluvio_bin env instead fluvio directly",
+     "url": "https://github.com/fluvio-community/fluvio/pull/3960",
+     "merged": "2024-04-23"
+    },
+    {
+     "number": 3959,
+     "title": "feat: rename mirroring cmds to home and remote",
+     "url": "https://github.com/fluvio-community/fluvio/pull/3959",
+     "merged": "2024-04-23"
+    },
+    {
+     "number": 3940,
+     "title": "feat: add edge commands",
+     "url": "https://github.com/fluvio-community/fluvio/pull/3940",
+     "merged": "2024-04-16"
+    },
+    {
+     "number": 3931,
+     "title": "feat: add core commands + metadata store",
+     "url": "https://github.com/fluvio-community/fluvio/pull/3931",
+     "merged": "2024-04-10"
+    },
+    {
+     "number": 3852,
+     "title": "chore: exit when there is no unzip cmd",
+     "url": "https://github.com/fluvio-community/fluvio/pull/3852",
+     "merged": "2024-02-06"
+    },
+    {
+     "number": 3853,
+     "title": "chore: remove unnecessary specialized errors",
+     "url": "https://github.com/fluvio-community/fluvio/pull/3853",
+     "merged": "2024-02-05"
+    }
+   ]
+  },
+  {
+   "name": "marigold-dev/tzproxy",
+   "url": "https://github.com/marigold-dev/tzproxy",
+   "kind": "commits",
+   "count": 96,
+   "first": "2022-08-24",
+   "last": "2024-02-14",
+   "prs": []
+  },
+  {
+   "name": "denoland/deno",
+   "url": "https://github.com/denoland/deno",
+   "kind": "prs",
+   "count": 77,
+   "first": "2025-10-20",
+   "last": "2026-03-20",
+   "prs": [
+    {
+     "number": 32772,
+     "title": "fix(ext/node): pass uid/gid to spawn and implement process.getgroups",
+     "url": "https://github.com/denoland/deno/pull/32772",
+     "merged": "2026-03-20"
+    },
+    {
+     "number": 32779,
+     "title": "fix(ext/node): fix send() validation in child_process IPC",
+     "url": "https://github.com/denoland/deno/pull/32779",
+     "merged": "2026-03-17"
+    },
+    {
+     "number": 32731,
+     "title": "fix(ext/node): fix IPC message prototype for child_process JSON",
+     "url": "https://github.com/denoland/deno/pull/32731",
+     "merged": "2026-03-16"
+    },
+    {
+     "number": 32711,
+     "title": "fix(ext/node): validate handle type in child_process send()",
+     "url": "https://github.com/denoland/deno/pull/32711",
+     "merged": "2026-03-16"
+    },
+    {
+     "number": 32713,
+     "title": "fix(ext/node): fix AbortController signal handling in child_process s…",
+     "url": "https://github.com/denoland/deno/pull/32713",
+     "merged": "2026-03-14"
+    },
+    {
+     "number": 32712,
+     "title": "fix(ext/node): accept all TypedArrays in spawnSync input option",
+     "url": "https://github.com/denoland/deno/pull/32712",
+     "merged": "2026-03-14"
+    },
+    {
+     "number": 32710,
+     "title": "fix(ext/node): enable 8 already-passing child_process compat tests",
+     "url": "https://github.com/denoland/deno/pull/32710",
+     "merged": "2026-03-14"
+    },
+    {
+     "number": 32699,
+     "title": "fix(ext/node): include prototype env vars in child_process spawn",
+     "url": "https://github.com/denoland/deno/pull/32699",
+     "merged": "2026-03-14"
+    },
+    {
+     "number": 32698,
+     "title": "fix(ext/node): set up stdio streams on failed child_process spawn",
+     "url": "https://github.com/denoland/deno/pull/32698",
+     "merged": "2026-03-14"
+    },
+    {
+     "number": 32673,
+     "title": "fix(ext/node): use non-blocking write in fs.writev",
+     "url": "https://github.com/denoland/deno/pull/32673",
+     "merged": "2026-03-12"
+    },
+    {
+     "number": 32450,
+     "title": "fix: wake event loop when V8 posts foreground tasks from background threads",
+     "url": "https://github.com/denoland/deno/pull/32450",
+     "merged": "2026-03-12"
+    },
+    {
+     "number": 32325,
+     "title": "fix(ext/node): fix TLS JSStreamSocket resource leak causing process hang",
+     "url": "https://github.com/denoland/deno/pull/32325",
+     "merged": "2026-03-11"
+    },
+    {
+     "number": 32414,
+     "title": "fix(ext/node): support HTTP over Windows named pipes in node:http",
+     "url": "https://github.com/denoland/deno/pull/32414",
+     "merged": "2026-03-04"
+    },
+    {
+     "number": 32336,
+     "title": "fix:(ext/node): escape simple quotes in node:child_process",
+     "url": "https://github.com/denoland/deno/pull/32336",
+     "merged": "2026-03-02"
+    },
+    {
+     "number": 32337,
+     "title": "fix(node/vm): support vm.constants.DONT_CONTEXTIFY in createContext",
+     "url": "https://github.com/denoland/deno/pull/32337",
+     "merged": "2026-02-27"
+    },
+    {
+     "number": 32289,
+     "title": "fix(ext/node): remove fs.promises.fstat, not a public Node.js API",
+     "url": "https://github.com/denoland/deno/pull/32289",
+     "merged": "2026-02-23"
+    },
+    {
+     "number": 32284,
+     "title": "fix(ext/node): enable test-zlib-invalid-input-memory and test-zlib-un…",
+     "url": "https://github.com/denoland/deno/pull/32284",
+     "merged": "2026-02-23"
+    },
+    {
+     "number": 32283,
+     "title": "fix(ext/node): implement timeout and killSignal for spawn()",
+     "url": "https://github.com/denoland/deno/pull/32283",
+     "merged": "2026-02-23"
+    },
+    {
+     "number": 32241,
+     "title": "fix(ci): use noble apt repo for LLVM 21 packages",
+     "url": "https://github.com/denoland/deno/pull/32241",
+     "merged": "2026-02-20"
+    },
+    {
+     "number": 32237,
+     "title": "fix(ext/node): enable test-stdio-closed tests",
+     "url": "https://github.com/denoland/deno/pull/32237",
+     "merged": "2026-02-20"
+    },
+    {
+     "number": 32087,
+     "title": "fix(ext/node): handle shell redirections in child_process exec",
+     "url": "https://github.com/denoland/deno/pull/32087",
+     "merged": "2026-02-19"
+    },
+    {
+     "number": 32215,
+     "title": "fix(ext/node): preserve streaming body on stale keepalive retry",
+     "url": "https://github.com/denoland/deno/pull/32215",
+     "merged": "2026-02-18"
+    },
+    {
+     "number": 32148,
+     "title": "fix(node/http): preserve request body on stale keepalive retry",
+     "url": "https://github.com/denoland/deno/pull/32148",
+     "merged": "2026-02-16"
+    },
+    {
+     "number": 32137,
+     "title": "tests(node/ext): ignore zlib kmaxlength tests",
+     "url": "https://github.com/denoland/deno/pull/32137",
+     "merged": "2026-02-13"
+    },
+    {
+     "number": 32146,
+     "title": "tests(ext/node): remove typo of double .js",
+     "url": "https://github.com/denoland/deno/pull/32146",
+     "merged": "2026-02-12"
+    },
+    {
+     "number": 32130,
+     "title": "fix(node/ext): make zlib write callback async to match node behavior",
+     "url": "https://github.com/denoland/deno/pull/32130",
+     "merged": "2026-02-12"
+    },
+    {
+     "number": 32112,
+     "title": "tests: enable some node child-process tests",
+     "url": "https://github.com/denoland/deno/pull/32112",
+     "merged": "2026-02-12"
+    },
+    {
+     "number": 32118,
+     "title": "fix(ext/web): prevent GC of AbortSignal.any()",
+     "url": "https://github.com/denoland/deno/pull/32118",
+     "merged": "2026-02-11"
+    },
+    {
+     "number": 32088,
+     "title": "fix(ext/node): read from stdin when spawns node with no args",
+     "url": "https://github.com/denoland/deno/pull/32088",
+     "merged": "2026-02-09"
+    },
+    {
+     "number": 32086,
+     "title": "fix(ext/node): unref stdin on pause to allow process exit",
+     "url": "https://github.com/denoland/deno/pull/32086",
+     "merged": "2026-02-09"
+    },
+    {
+     "number": 32071,
+     "title": "fix(ext/node): unref child_process stdio streams by default",
+     "url": "https://github.com/denoland/deno/pull/32071",
+     "merged": "2026-02-06"
+    },
+    {
+     "number": 31912,
+     "title": "fix(ext/node): handle raw fd instead rid in isatty",
+     "url": "https://github.com/denoland/deno/pull/31912",
+     "merged": "2026-02-04"
+    },
+    {
+     "number": 31999,
+     "title": "fix(ext/node): escape more shell args",
+     "url": "https://github.com/denoland/deno/pull/31999",
+     "merged": "2026-02-02"
+    },
+    {
+     "number": 31975,
+     "title": "fix(ext/node): make `child_process` stdio streams Socket instances",
+     "url": "https://github.com/denoland/deno/pull/31975",
+     "merged": "2026-02-02"
+    },
+    {
+     "number": 31972,
+     "title": "tests: enable some node child-process tests",
+     "url": "https://github.com/denoland/deno/pull/31972",
+     "merged": "2026-01-29"
+    },
+    {
+     "number": 31851,
+     "title": "fix(ext/node): pass test-child-process-bad-stdio node compat test",
+     "url": "https://github.com/denoland/deno/pull/31851",
+     "merged": "2026-01-28"
+    },
+    {
+     "number": 31954,
+     "title": "feat(ext/node): implement mock API for node:test module",
+     "url": "https://github.com/denoland/deno/pull/31954",
+     "merged": "2026-01-27"
+    },
+    {
+     "number": 31937,
+     "title": "chore: move node_shim crate into libs/node_shim",
+     "url": "https://github.com/denoland/deno/pull/31937",
+     "merged": "2026-01-23"
+    },
+    {
+     "number": 31932,
+     "title": "fix(ext/node): retry stale keepAlive connections in http client",
+     "url": "https://github.com/denoland/deno/pull/31932",
+     "merged": "2026-01-23"
+    },
+    {
+     "number": 31920,
+     "title": "fix(ext/node): support setImmediate promisify.custom",
+     "url": "https://github.com/denoland/deno/pull/31920",
+     "merged": "2026-01-22"
+    },
+    {
+     "number": 31892,
+     "title": "fix(ext/node): validate fd in tty.isatty and enable pseudo-tty tests",
+     "url": "https://github.com/denoland/deno/pull/31892",
+     "merged": "2026-01-22"
+    },
+    {
+     "number": 31825,
+     "title": "fix(ext/node): improve child_process CLI argument parsing",
+     "url": "https://github.com/denoland/deno/pull/31825",
+     "merged": "2026-01-22"
+    },
+    {
+     "number": 31850,
+     "title": "fix(ext/node): implement getValidStdio for child_process",
+     "url": "https://github.com/denoland/deno/pull/31850",
+     "merged": "2026-01-16"
+    },
+    {
+     "number": 31838,
+     "title": "fix(node/child_process): ChildProcess constructor without args",
+     "url": "https://github.com/denoland/deno/pull/31838",
+     "merged": "2026-01-14"
+    },
+    {
+     "number": 31836,
+     "title": "fix(node/child_process): use correct syscall name in spawn error",
+     "url": "https://github.com/denoland/deno/pull/31836",
+     "merged": "2026-01-13"
+    },
+    {
+     "number": 31829,
+     "title": "fix(node/child_process): improve arg type validation for execFile and fork",
+     "url": "https://github.com/denoland/deno/pull/31829",
+     "merged": "2026-01-13"
+    },
+    {
+     "number": 31828,
+     "title": "fix(node/child_process): reject null bytes in arguments",
+     "url": "https://github.com/denoland/deno/pull/31828",
+     "merged": "2026-01-13"
+    },
+    {
+     "number": 31826,
+     "title": "tests: mark test-sqlite-session as flaky",
+     "url": "https://github.com/denoland/deno/pull/31826",
+     "merged": "2026-01-13"
+    },
+    {
+     "number": 31788,
+     "title": "tests: remake inspector tests handling out of order",
+     "url": "https://github.com/denoland/deno/pull/31788",
+     "merged": "2026-01-13"
+    },
+    {
+     "number": 31772,
+     "title": "fix(ext/node): emit deprecation warning for SlowBuffer",
+     "url": "https://github.com/denoland/deno/pull/31772",
+     "merged": "2026-01-10"
+    },
+    {
+     "number": 31794,
+     "title": "chore: use latest node_compat suite tests again",
+     "url": "https://github.com/denoland/deno/pull/31794",
+     "merged": "2026-01-08"
+    },
+    {
+     "number": 31782,
+     "title": "fix(cli/test): close Node HTTP connections before sanitizer check",
+     "url": "https://github.com/denoland/deno/pull/31782",
+     "merged": "2026-01-07"
+    },
+    {
+     "number": 31670,
+     "title": "fix: queue dynamic imports for modules with pending TLA",
+     "url": "https://github.com/denoland/deno/pull/31670",
+     "merged": "2026-01-07"
+    },
+    {
+     "number": 31756,
+     "title": "fix(ext/node): handle errors in sqlite session filter callback and ad…",
+     "url": "https://github.com/denoland/deno/pull/31756",
+     "merged": "2026-01-05"
+    },
+    {
+     "number": 31751,
+     "title": "fix(node/crypto): integrate async_hooks for domain error handling",
+     "url": "https://github.com/denoland/deno/pull/31751",
+     "merged": "2026-01-05"
+    },
+    {
+     "number": 31682,
+     "title": "tests: deno test --parallel with worker",
+     "url": "https://github.com/denoland/deno/pull/31682",
+     "merged": "2026-01-05"
+    },
+    {
+     "number": 31734,
+     "title": "fix(ext/node): support TypedArray and DataView targets in Buffer.copy()",
+     "url": "https://github.com/denoland/deno/pull/31734",
+     "merged": "2025-12-30"
+    },
+    {
+     "number": 31709,
+     "title": "feat(node/http): enable keepAlive connection reuse for HTTP Agent",
+     "url": "https://github.com/denoland/deno/pull/31709",
+     "merged": "2025-12-30"
+    },
+    {
+     "number": 31624,
+     "title": "feat: support named pipe listen, connect and open",
+     "url": "https://github.com/denoland/deno/pull/31624",
+     "merged": "2025-12-19"
+    },
+    {
+     "number": 31658,
+     "title": "fix: panic on dropped inspector session",
+     "url": "https://github.com/denoland/deno/pull/31658",
+     "merged": "2025-12-18"
+    },
+    {
+     "number": 31527,
+     "title": "feat: worker debugging support via CDP",
+     "url": "https://github.com/denoland/deno/pull/31527",
+     "merged": "2025-12-16"
+    },
+    {
+     "number": 31601,
+     "title": "tests: update sourcemap tests for npm-only source existence check",
+     "url": "https://github.com/denoland/deno/pull/31601",
+     "merged": "2025-12-15"
+    },
+    {
+     "number": 31564,
+     "title": "fix: source map file names to non-existent paths",
+     "url": "https://github.com/denoland/deno/pull/31564",
+     "merged": "2025-12-12"
+    },
+    {
+     "number": 31268,
+     "title": "feat: add native source maps support",
+     "url": "https://github.com/denoland/deno/pull/31268",
+     "merged": "2025-12-02"
+    },
+    {
+     "number": 31201,
+     "title": "feat: add --require run arg to support commonJS",
+     "url": "https://github.com/denoland/deno/pull/31201",
+     "merged": "2025-11-24"
+    },
+    {
+     "number": 31375,
+     "title": "fix: fetch fd leak",
+     "url": "https://github.com/denoland/deno/pull/31375",
+     "merged": "2025-11-22"
+    },
+    {
+     "number": 31190,
+     "title": "test: add regression test for --preload with same module as main",
+     "url": "https://github.com/denoland/deno/pull/31190",
+     "merged": "2025-11-05"
+    },
+    {
+     "number": 31153,
+     "title": "feat(process): support integer signals in Deno.kill and child.kill",
+     "url": "https://github.com/denoland/deno/pull/31153",
+     "merged": "2025-11-04"
+    },
+    {
+     "number": 31152,
+     "title": "fix(compile): support --preload flag in deno compile",
+     "url": "https://github.com/denoland/deno/pull/31152",
+     "merged": "2025-11-03"
+    },
+    {
+     "number": 31147,
+     "title": "fix(ext/node): implement util.getSystemErrorMessage()",
+     "url": "https://github.com/denoland/deno/pull/31147",
+     "merged": "2025-11-03"
+    },
+    {
+     "number": 31123,
+     "title": "fix(ext/net): support IPv6 zone indices in Deno.connect()",
+     "url": "https://github.com/denoland/deno/pull/31123",
+     "merged": "2025-10-30"
+    },
+    {
+     "number": 31119,
+     "title": "feat(ext/node): implement StatementSync columns() method",
+     "url": "https://github.com/denoland/deno/pull/31119",
+     "merged": "2025-10-29"
+    },
+    {
+     "number": 31107,
+     "title": "feat(ext/node): implement FileHandle.readLines()",
+     "url": "https://github.com/denoland/deno/pull/31107",
+     "merged": "2025-10-28"
+    },
+    {
+     "number": 31066,
+     "title": "fix(ext/node): handle empty writes in chunked HTTP requests",
+     "url": "https://github.com/denoland/deno/pull/31066",
+     "merged": "2025-10-28"
+    },
+    {
+     "number": 31067,
+     "title": "fix(ext/node): handle multiple calls in inspector.Session.post()",
+     "url": "https://github.com/denoland/deno/pull/31067",
+     "merged": "2025-10-27"
+    },
+    {
+     "number": 31063,
+     "title": "fix(cli/args): empty permissions in config should not require -P",
+     "url": "https://github.com/denoland/deno/pull/31063",
+     "merged": "2025-10-23"
+    },
+    {
+     "number": 31022,
+     "title": "fix(ext/node): process.moduleLoadList as undefined",
+     "url": "https://github.com/denoland/deno/pull/31022",
+     "merged": "2025-10-20"
+    }
+   ]
+  },
+  {
+   "name": "trilitech/tezos-unity-sdk",
+   "url": "https://github.com/trilitech/tezos-unity-sdk",
+   "kind": "prs",
+   "count": 12,
+   "first": "2023-04-25",
+   "last": "2023-08-12",
+   "prs": [
+    {
+     "number": 126,
+     "title": "update root unity readme file",
+     "url": "https://github.com/trilitech/tezos-unity-sdk/pull/126",
+     "merged": "2023-08-12"
+    },
+    {
+     "number": 124,
+     "title": "Unitypackage",
+     "url": "https://github.com/trilitech/tezos-unity-sdk/pull/124",
+     "merged": "2023-08-11"
+    },
+    {
+     "number": 122,
+     "title": "Add only editor or webgl descr",
+     "url": "https://github.com/trilitech/tezos-unity-sdk/pull/122",
+     "merged": "2023-08-02"
+    },
+    {
+     "number": 116,
+     "title": "Fix ios open wallet",
+     "url": "https://github.com/trilitech/tezos-unity-sdk/pull/116",
+     "merged": "2023-07-27"
+    },
+    {
+     "number": 115,
+     "title": "Fix ios build",
+     "url": "https://github.com/trilitech/tezos-unity-sdk/pull/115",
+     "merged": "2023-07-17"
+    },
+    {
+     "number": 85,
+     "title": "Enable newtonsoft to ios",
+     "url": "https://github.com/trilitech/tezos-unity-sdk/pull/85",
+     "merged": "2023-06-13"
+    },
+    {
+     "number": 66,
+     "title": "Fix Ligo contracts",
+     "url": "https://github.com/trilitech/tezos-unity-sdk/pull/66",
+     "merged": "2023-05-26"
+    },
+    {
+     "number": 54,
+     "title": "Better coroutine error handling",
+     "url": "https://github.com/trilitech/tezos-unity-sdk/pull/54",
+     "merged": "2023-05-11"
+    },
+    {
+     "number": 58,
+     "title": "Remove some unity warnings",
+     "url": "https://github.com/trilitech/tezos-unity-sdk/pull/58",
+     "merged": "2023-05-09"
+    },
+    {
+     "number": 55,
+     "title": "Remove explicit implementation methods in TezosSingleton",
+     "url": "https://github.com/trilitech/tezos-unity-sdk/pull/55",
+     "merged": "2023-05-03"
+    },
+    {
+     "number": 44,
+     "title": "Fix singleton mono behaviour typo",
+     "url": "https://github.com/trilitech/tezos-unity-sdk/pull/44",
+     "merged": "2023-05-03"
+    },
+    {
+     "number": 42,
+     "title": "Add custom readme",
+     "url": "https://github.com/trilitech/tezos-unity-sdk/pull/42",
+     "merged": "2023-04-25"
+    }
+   ]
+  },
+  {
+   "name": "denoland/deno_core",
+   "url": "https://github.com/denoland/deno_core",
+   "kind": "prs",
+   "count": 8,
+   "first": "2025-11-03",
+   "last": "2026-01-05",
+   "prs": [
+    {
+     "number": 1268,
+     "title": "fix(core): queue dynamic imports for modules with pending TLA",
+     "url": "https://github.com/denoland/deno_core/pull/1268",
+     "merged": "2026-01-05"
+    },
+    {
+     "number": 1266,
+     "title": "fix: when main immediately closes before worker",
+     "url": "https://github.com/denoland/deno_core/pull/1266",
+     "merged": "2025-12-18"
+    },
+    {
+     "number": 1254,
+     "title": "feat: worker debugging support via CDP",
+     "url": "https://github.com/denoland/deno_core/pull/1254",
+     "merged": "2025-12-16"
+    },
+    {
+     "number": 1259,
+     "title": "feat: add source_map_source_exists method to ModuleLoader",
+     "url": "https://github.com/denoland/deno_core/pull/1259",
+     "merged": "2025-12-11"
+    },
+    {
+     "number": 1257,
+     "title": "fix: source map file names to non-existent paths",
+     "url": "https://github.com/denoland/deno_core/pull/1257",
+     "merged": "2025-12-11"
+    },
+    {
+     "number": 1241,
+     "title": "feat: add native source maps support",
+     "url": "https://github.com/denoland/deno_core/pull/1241",
+     "merged": "2025-11-18"
+    },
+    {
+     "number": 1242,
+     "title": "chore: upgrade to Rust 1.91.1",
+     "url": "https://github.com/denoland/deno_core/pull/1242",
+     "merged": "2025-11-13"
+    },
+    {
+     "number": 1221,
+     "title": "fix: ignore already loaded js module",
+     "url": "https://github.com/denoland/deno_core/pull/1221",
+     "merged": "2025-11-03"
+    }
+   ]
+  },
+  {
+   "name": "streamfy-io/streamfy",
+   "url": "https://github.com/streamfy-io/streamfy",
+   "kind": "prs",
+   "count": 8,
+   "first": "2026-07-09",
+   "last": "2026-07-23",
+   "prs": [
+    {
+     "number": 10,
+     "title": "chore: bump Rust toolchain to 1.97.1",
+     "url": "https://github.com/streamfy-io/streamfy/pull/10",
+     "merged": "2026-07-23"
+    },
+    {
+     "number": 9,
+     "title": "fix: stabilize local-k8 topic create under k3d CI load",
+     "url": "https://github.com/streamfy-io/streamfy/pull/9",
+     "merged": "2026-07-23"
+    },
+    {
+     "number": 7,
+     "title": "ci: more matrix jobs into PR CI",
+     "url": "https://github.com/streamfy-io/streamfy/pull/7",
+     "merged": "2026-07-12"
+    },
+    {
+     "number": 3,
+     "title": "feat: add log compaction",
+     "url": "https://github.com/streamfy-io/streamfy/pull/3",
+     "merged": "2026-07-12"
+    },
+    {
+     "number": 8,
+     "title": "fix: stop flaky helm packaging during clippy CI",
+     "url": "https://github.com/streamfy-io/streamfy/pull/8",
+     "merged": "2026-07-10"
+    },
+    {
+     "number": 6,
+     "title": "ci: add lint, PR tests, and rolling dev releases",
+     "url": "https://github.com/streamfy-io/streamfy/pull/6",
+     "merged": "2026-07-10"
+    },
+    {
+     "number": 5,
+     "title": "docs: add Streamfy logo to README",
+     "url": "https://github.com/streamfy-io/streamfy/pull/5",
+     "merged": "2026-07-09"
+    },
+    {
+     "number": 4,
+     "title": "chore: rename fvm to svm (Streamfy Version Manager)",
+     "url": "https://github.com/streamfy-io/streamfy/pull/4",
+     "merged": "2026-07-09"
+    }
+   ]
+  },
+  {
+   "name": "marigold-dev/tzstamp",
+   "url": "https://github.com/marigold-dev/tzstamp",
+   "kind": "prs",
+   "count": 6,
+   "first": "2021-10-27",
+   "last": "2022-12-14",
+   "prs": [
+    {
+     "number": 20,
+     "title": "Improve readme files and folders structure",
+     "url": "https://github.com/marigold-dev/tzstamp/pull/20",
+     "merged": "2022-12-14"
+    },
+    {
+     "number": 18,
+     "title": "update 0.3.3 to 0.3.4",
+     "url": "https://github.com/marigold-dev/tzstamp/pull/18",
+     "merged": "2021-11-09"
+    },
+    {
+     "number": 13,
+     "title": "Use github links instead of gitlab links",
+     "url": "https://github.com/marigold-dev/tzstamp/pull/13",
+     "merged": "2021-11-09"
+    },
+    {
+     "number": 7,
+     "title": "create pull request template",
+     "url": "https://github.com/marigold-dev/tzstamp/pull/7",
+     "merged": "2021-10-27"
+    },
+    {
+     "number": 3,
+     "title": "change the default network from giganode to ECAD Labs node",
+     "url": "https://github.com/marigold-dev/tzstamp/pull/3",
+     "merged": "2021-10-27"
+    },
+    {
+     "number": 1,
+     "title": "add new liquidity_baking_escape_vote field on build block hash proof",
+     "url": "https://github.com/marigold-dev/tzstamp/pull/1",
+     "merged": "2021-10-27"
+    }
+   ]
+  },
+  {
+   "name": "anmonteiro/piaf",
+   "url": "https://github.com/anmonteiro/piaf",
+   "kind": "prs",
+   "count": 5,
+   "first": "2022-09-06",
+   "last": "2022-12-07",
+   "prs": [
+    {
+     "number": 151,
+     "title": "Add multicore support",
+     "url": "https://github.com/anmonteiro/piaf/pull/151",
+     "merged": "2022-12-07"
+    },
+    {
+     "number": 146,
+     "title": "add simple server example",
+     "url": "https://github.com/anmonteiro/piaf/pull/146",
+     "merged": "2022-12-06"
+    },
+    {
+     "number": 149,
+     "title": "add bind_to_address and backlog in server_config",
+     "url": "https://github.com/anmonteiro/piaf/pull/149",
+     "merged": "2022-11-24"
+    },
+    {
+     "number": 135,
+     "title": "add ocaml-lsp as a dev dependency",
+     "url": "https://github.com/anmonteiro/piaf/pull/135",
+     "merged": "2022-09-06"
+    },
+    {
+     "number": 134,
+     "title": "fix nix command to setup a dev env",
+     "url": "https://github.com/anmonteiro/piaf/pull/134",
+     "merged": "2022-09-06"
+    }
+   ]
+  },
+  {
+   "name": "rust-lang/this-week-in-rust",
+   "url": "https://github.com/rust-lang/this-week-in-rust",
+   "kind": "prs",
+   "count": 4,
+   "first": "2024-12-19",
+   "last": "2025-07-09",
+   "prs": [
+    {
+     "number": 6805,
+     "title": "add: Fluvio 0.18.1 project release",
+     "url": "https://github.com/rust-lang/this-week-in-rust/pull/6805",
+     "merged": "2025-07-09"
+    },
+    {
+     "number": 6802,
+     "title": "add: Fluvio 0.18.1 project release",
+     "url": "https://github.com/rust-lang/this-week-in-rust/pull/6802",
+     "merged": "2025-07-09"
+    },
+    {
+     "number": 6636,
+     "title": "add: Fluvio 0.17.3 project release",
+     "url": "https://github.com/rust-lang/this-week-in-rust/pull/6636",
+     "merged": "2025-05-16"
+    },
+    {
+     "number": 6201,
+     "title": "add: Fluvio 0.14.0 project release",
+     "url": "https://github.com/rust-lang/this-week-in-rust/pull/6201",
+     "merged": "2024-12-19"
+    }
+   ]
+  },
+  {
+   "name": "airgap-it/tezos-rust-sdk",
+   "url": "https://github.com/airgap-it/tezos-rust-sdk",
+   "kind": "prs",
+   "count": 3,
+   "first": "2023-02-25",
+   "last": "2023-03-05",
+   "prs": [
+    {
+     "number": 17,
+     "title": "fix stack overflow when converting an address",
+     "url": "https://github.com/airgap-it/tezos-rust-sdk/pull/17",
+     "merged": "2023-03-05"
+    },
+    {
+     "number": 16,
+     "title": "rename tokens_per_roll to minimal_stake",
+     "url": "https://github.com/airgap-it/tezos-rust-sdk/pull/16",
+     "merged": "2023-03-04"
+    },
+    {
+     "number": 14,
+     "title": "Add events as internal opearations",
+     "url": "https://github.com/airgap-it/tezos-rust-sdk/pull/14",
+     "merged": "2023-02-25"
+    }
+   ]
+  },
+  {
+   "name": "denoland/node_shim",
+   "url": "https://github.com/denoland/node_shim",
+   "kind": "prs",
+   "count": 3,
+   "first": "2026-01-20",
+   "last": "2026-01-22",
+   "prs": [
+    {
+     "number": 3,
+     "title": "add require to wrap_eval_code",
+     "url": "https://github.com/denoland/node_shim/pull/3",
+     "merged": "2026-01-22"
+    },
+    {
+     "number": 2,
+     "title": "feat: add translate_to_deno_args function and fix eval handling",
+     "url": "https://github.com/denoland/node_shim/pull/2",
+     "merged": "2026-01-20"
+    },
+    {
+     "number": 1,
+     "title": "prepare project to be published",
+     "url": "https://github.com/denoland/node_shim/pull/1",
+     "merged": "2026-01-20"
+    }
+   ]
+  },
+  {
+   "name": "denoland/rusty_v8",
+   "url": "https://github.com/denoland/rusty_v8",
+   "kind": "prs",
+   "count": 2,
+   "first": "2026-03-09",
+   "last": "2026-03-09",
+   "prs": [
+    {
+     "number": 1926,
+     "title": "v146.4.0",
+     "url": "https://github.com/denoland/rusty_v8/pull/1926",
+     "merged": "2026-03-09"
+    },
+    {
+     "number": 1924,
+     "title": "feat: add PlatformImpl trait for custom platform callbacks",
+     "url": "https://github.com/denoland/rusty_v8/pull/1924",
+     "merged": "2026-03-09"
+    }
+   ]
+  },
+  {
+   "name": "ecadlabs/taquito",
+   "url": "https://github.com/ecadlabs/taquito",
+   "kind": "prs",
+   "count": 2,
+   "first": "2021-10-05",
+   "last": "2022-05-18",
+   "prs": [
+    {
+     "number": 1638,
+     "title": "Add marigold tezos nodes",
+     "url": "https://github.com/ecadlabs/taquito/pull/1638",
+     "merged": "2022-05-18"
+    },
+    {
+     "number": 1094,
+     "title": "Allow to set HttpBackend on IpfsHttpHandler (#1092)",
+     "url": "https://github.com/ecadlabs/taquito/pull/1094",
+     "merged": "2021-10-05"
+    }
+   ]
+  },
+  {
+   "name": "zanfranceschi/rinha-de-backend-2024-q1",
+   "url": "https://github.com/zanfranceschi/rinha-de-backend-2024-q1",
+   "kind": "prs",
+   "count": 2,
+   "first": "2024-02-13",
+   "last": "2024-03-10",
+   "prs": [
+    {
+     "number": 1487,
+     "title": "remover testada",
+     "url": "https://github.com/zanfranceschi/rinha-de-backend-2024-q1/pull/1487",
+     "merged": "2024-03-10"
+    },
+    {
+     "number": 255,
+     "title": "add fraidev participante",
+     "url": "https://github.com/zanfranceschi/rinha-de-backend-2024-q1/pull/255",
+     "merged": "2024-02-13"
+    }
+   ]
+  },
+  {
+   "name": "anmonteiro/httpun",
+   "url": "https://github.com/anmonteiro/httpun",
+   "kind": "prs",
+   "count": 1,
+   "first": "2022-09-14",
+   "last": "2022-09-14",
+   "prs": [
+    {
+     "number": 120,
+     "title": "Add status codes as per RFC6585",
+     "url": "https://github.com/anmonteiro/httpun/pull/120",
+     "merged": "2022-09-14"
+    }
+   ]
+  },
+  {
+   "name": "aripiprazole/rinha-de-compiler",
+   "url": "https://github.com/aripiprazole/rinha-de-compiler",
+   "kind": "prs",
+   "count": 1,
+   "first": "2023-09-22",
+   "last": "2023-09-22",
+   "prs": [
+    {
+     "number": 191,
+     "title": "Update PARTICIPANTS.md",
+     "url": "https://github.com/aripiprazole/rinha-de-compiler/pull/191",
+     "merged": "2023-09-22"
+    }
+   ]
+  },
+  {
+   "name": "cloudflare/workerd",
+   "url": "https://github.com/cloudflare/workerd",
+   "kind": "prs",
+   "count": 1,
+   "first": "2026-03-27",
+   "last": "2026-03-27",
+   "prs": [
+    {
+     "number": 6378,
+     "title": "Implement fs.glob, fs.globSync, and fs/promises.glob",
+     "url": "https://github.com/cloudflare/workerd/pull/6378",
+     "merged": "2026-03-27"
+    }
+   ]
+  },
+  {
+   "name": "denoland/deno_graph",
+   "url": "https://github.com/denoland/deno_graph",
+   "kind": "prs",
+   "count": 1,
+   "first": "2025-11-26",
+   "last": "2025-11-26",
+   "prs": [
+    {
+     "number": 628,
+     "title": "feat: ensure source maps are cached",
+     "url": "https://github.com/denoland/deno_graph/pull/628",
+     "merged": "2025-11-26"
+    }
+   ]
+  },
+  {
+   "name": "esy-ocaml/esy-opam-override",
+   "url": "https://github.com/esy-ocaml/esy-opam-override",
+   "kind": "prs",
+   "count": 1,
+   "first": "2022-03-18",
+   "last": "2022-03-18",
+   "prs": [
+    {
+     "number": 123,
+     "title": "Patch fixing openssl for MacOS arm64",
+     "url": "https://github.com/esy-ocaml/esy-opam-override/pull/123",
+     "merged": "2022-03-18"
+    }
+   ]
+  },
+  {
+   "name": "gnome-terminator/gnome-terminator.github.io",
+   "url": "https://github.com/gnome-terminator/gnome-terminator.github.io",
+   "kind": "prs",
+   "count": 1,
+   "first": "2024-03-05",
+   "last": "2024-03-05",
+   "prs": [
+    {
+     "number": 32,
+     "title": "Remove wrong bracket",
+     "url": "https://github.com/gnome-terminator/gnome-terminator.github.io/pull/32",
+     "merged": "2024-03-05"
+    }
+   ]
+  },
+  {
+   "name": "labstack/echo-contrib",
+   "url": "https://github.com/labstack/echo-contrib",
+   "kind": "prs",
+   "count": 1,
+   "first": "2023-06-26",
+   "last": "2023-06-26",
+   "prs": [
+    {
+     "number": 97,
+     "title": "add option to disable compression to echoprometheus",
+     "url": "https://github.com/labstack/echo-contrib/pull/97",
+     "merged": "2023-06-26"
+    }
+   ]
+  },
+  {
+   "name": "oven-sh/bun",
+   "url": "https://github.com/oven-sh/bun",
+   "kind": "prs",
+   "count": 1,
+   "first": "2025-10-28",
+   "last": "2025-10-28",
+   "prs": [
+    {
+     "number": 24114,
+     "title": "fix: body already used error to throw TypeError",
+     "url": "https://github.com/oven-sh/bun/pull/24114",
+     "merged": "2025-10-28"
+    }
+   ]
+  },
+  {
+   "name": "react/react",
+   "url": "https://github.com/react/react",
+   "kind": "prs",
+   "count": 1,
+   "first": "2025-12-04",
+   "last": "2025-12-04",
+   "prs": [
+    {
+     "number": 35235,
+     "title": "[react-dom/server] Fix hanging on Deno",
+     "url": "https://github.com/react/react/pull/35235",
+     "merged": "2025-12-04"
+    }
+   ]
+  },
+  {
+   "name": "supabase/edge-runtime",
+   "url": "https://github.com/supabase/edge-runtime",
+   "kind": "prs",
+   "count": 1,
+   "first": "2026-04-15",
+   "last": "2026-04-15",
+   "prs": [
+    {
+     "number": 686,
+     "title": "fix: use runtime filesystem for file:// requests",
+     "url": "https://github.com/supabase/edge-runtime/pull/686",
+     "merged": "2026-04-15"
+    }
+   ]
+  },
+  {
+   "name": "ziglang/zig",
+   "url": "https://github.com/ziglang/zig",
+   "kind": "prs",
+   "count": 1,
+   "first": "2025-10-26",
+   "last": "2025-10-26",
+   "prs": [
+    {
+     "number": 25704,
+     "title": "docs: fix handle_error_with_catch_block typo",
+     "url": "https://github.com/ziglang/zig/pull/25704",
+     "merged": "2025-10-26"
+    }
+   ]
+  }
+ ]
+}

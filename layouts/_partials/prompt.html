@@ -1,0 +1,7 @@
+{{- /* dir: slice of (name, url); cmd: string; arg: optional (name, url) */ -}}
+<div class="prompt">
+  <span class="ps-user"><a href="/">{{ site.Params.handle }}@{{ site.Params.host }}</a></span>
+  <span class="ps-dir">{{ range $i, $d := .dir }}{{ if $i }}/{{ end }}<a href="{{ $d.url }}">{{ $d.name }}</a>{{ end }}</span>
+  <span class="ps-sym">$</span>
+  <span class="ps-cmd">{{ .cmd }}{{ with .arg }} {{ if .url }}<a href="{{ .url }}">{{ .name }}</a>{{ else }}<span{{ with .id }} id="{{ . }}"{{ end }}>{{ .name }}</span>{{ end }}{{ end }}</span>
+</div>

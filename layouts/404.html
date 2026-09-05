@@ -1,0 +1,14 @@
+{{ define "main" }}
+{{- $home := slice (dict "name" "~" "url" "/") }}
+{{ partial "prompt.html" (dict "dir" $home "cmd" "cd" "arg" (dict "name" "…" "id" "nf-path")) }}
+<p class="out"><span class="err">cd: no such file or directory:</span> <span class="nf-path">…</span></p>
+{{ partial "prompt.html" (dict "dir" $home "cmd" "ls" "arg" (dict "name" "" "url" "")) }}
+<ul class="ls ls-dirs" role="list">
+  {{- range site.Menus.main }}{{ if ne .URL "/" }}
+  {{- $isDir := in (slice "posts" "projects" "tags") .Name }}
+  <li><a class="{{ if $isDir }}dir{{ end }}" href="{{ .URL }}">{{ .Name }}{{ if $isDir }}/{{ else }}.md{{ end }}</a></li>
+  {{- end }}{{ end }}
+</ul>
+<p class="dim">tip: <code>cd ~</code> takes you <a href="/">home</a>. or press <kbd>~</kbd>.</p>
+{{ partial "idle-prompt.html" . }}
+{{ end }}

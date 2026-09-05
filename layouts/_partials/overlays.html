@@ -1,0 +1,83 @@
+{{- $ff := site.Params.ffxii }}
+<div id="term" class="term">
+  <div class="term-bar">
+    <span>{{ site.Params.handle }}@{{ site.Params.host }}: ~ &mdash; zsh</span>
+    <button type="button" class="term-close" id="term-close" aria-label="close shell">&times;</button>
+  </div>
+  <div class="term-out" id="term-out" aria-live="polite"></div>
+  <form class="term-line" id="term-form" autocomplete="off">
+    <label for="term-in" class="ps1" id="term-ps1">{{ site.Params.handle }}@{{ site.Params.host }} ~ $</label>
+    <input id="term-in" type="text" spellcheck="false" autocapitalize="off" autocorrect="off" aria-label="shell input">
+  </form>
+</div>
+
+<form id="cmdline" class="cmdline" hidden autocomplete="off">
+  <span id="cmdline-prefix">:</span><input id="cmdline-in" type="text" spellcheck="false" autocapitalize="off" aria-label="command line">
+</form>
+<div id="vim-msg" class="vim-msg" role="status" hidden></div>
+
+<div id="help" class="overlay" hidden>
+  <div class="overlay-backdrop" data-close></div>
+  <section class="help" role="dialog" aria-label="Keybindings">
+    <p class="help-head"><span>*frai.txt*</span><span class="dim">For Vim version 9.1. Last change: today</span></p>
+    <div class="help-cols">
+      <dl>
+        <dt>NORMAL MODE <span class="dim">*normal*</span></dt>
+        <dd><kbd>j</kbd> <kbd>k</kbd> scroll</dd>
+        <dd><kbd>gg</kbd> <kbd>G</kbd> top / bottom</dd>
+        <dd><kbd>h</kbd> <kbd>l</kbd> older / newer post</dd>
+        <dd><kbd>~</kbd> or <kbd>gh</kbd> cd ~</dd>
+        <dd><kbd>/</kbd> search, <kbd>n</kbd> <kbd>N</kbd> next / prev</dd>
+        <dd><kbd>!</kbd> toggle shell</dd>
+        <dd><kbd>:</kbd> command line</dd>
+        <dd><kbd>?</kbd> this help</dd>
+        <dd><kbd>Esc</kbd> close things</dd>
+      </dl>
+      <dl>
+        <dt>COMMANDS <span class="dim">*ex*</span></dt>
+        <dd><code>:q</code> <code>:q!</code> <code>:wq</code> as you would expect</dd>
+        <dd><code>:e posts</code> <code>:e ~</code> open a path</dd>
+        <dd><code>:set bg=light</code> or <code>dark</code></dd>
+        <dd><code>:%s/foo/bar/g</code> works on this page</dd>
+        <dd><code>:!neofetch</code> run a shell command</dd>
+        <dd><code>:help</code> this help</dd>
+        <dt>SHELL <span class="dim">*zsh*</span></dt>
+        <dd><code>help</code> <code>ls</code> <code>cd</code> <code>cat</code> <code>man frai</code> <code>neofetch</code> ...</dd>
+      </dl>
+      <dl>
+        <dt>TMUX <span class="dim">*prefix*</span></dt>
+        <dd><kbd>C-b</kbd> <kbd>o</kbd> next pane, <kbd>C-b</kbd> <kbd>;</kbd> previous</dd>
+        <dd><kbd>C-b</kbd> <kbd>z</kbd> zoom pane</dd>
+        <dd><kbd>C-b</kbd> <kbd>%</kbd> <kbd>"</kbd> split, opens a shell</dd>
+        <dd><kbd>C-b</kbd> <kbd>x</kbd> kill pane</dd>
+        <dd><kbd>C-b</kbd> <kbd>q</kbd> pane numbers, <kbd>C-b</kbd> <kbd>t</kbd> clock</dd>
+        <dd><kbd>C-b</kbd> <kbd>n</kbd> <kbd>p</kbd> <kbd>0-5</kbd> switch window</dd>
+        <dd><code>:vsplit projects</code> opens a page in a pane</dd>
+        <dd><code>tmux split-window</code> works in the shell too</dd>
+      </dl>
+    </div>
+    <p class="dim help-foot">there is one more thing. it is not in this file.</p>
+  </section>
+</div>
+
+<div id="party" class="overlay party" hidden>
+  <div class="overlay-backdrop" data-close></div>
+  <section class="ff" role="dialog" aria-label="Party status">
+    <div class="ff-stripes" aria-hidden="true"><i></i><i></i><i></i></div>
+    <span class="ff-cursor" aria-hidden="true">&raquo;</span>
+    <div class="ff-portrait">
+      <img src="{{ $ff.image | default site.Params.avatar }}" alt="{{ site.Params.author }} in front of the London Eye">
+      <span class="ff-name">{{ $ff.name | default site.Params.handle }}</span>
+    </div>
+    <div class="ff-level">
+      <span class="ff-level-label">LEVEL</span>
+      <span class="ff-level-num" id="ff-level">01</span>
+    </div>
+    <div class="ff-stats">
+      <span class="ff-k">LP</span><span class="ff-v" id="ff-lp">00000</span>
+      <span class="ff-k">EXP</span><span class="ff-v" id="ff-exp">00000000</span>
+      <span class="ff-k">NEXT</span><span class="ff-v" id="ff-next">00000000</span>
+    </div>
+  </section>
+  <p class="party-hint dim">esc to close</p>
+</div>

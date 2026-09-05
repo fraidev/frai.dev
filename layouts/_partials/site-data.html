@@ -1,0 +1,44 @@
+{{- $posts := slice }}
+{{- range where site.RegularPages "Section" "posts" }}
+  {{- $posts = $posts | append (dict
+      "title" .Title
+      "url" .RelPermalink
+      "slug" .File.ContentBaseName
+      "date" (.Date.Format "2006-01-02")
+      "tags" (.Params.tags | default slice)
+      "words" .WordCount
+      "min" .ReadingTime) }}
+{{- end }}
+{{- $tags := slice }}
+{{- range site.Taxonomies.tags.Alphabetical }}
+  {{- $tags = $tags | append (dict "name" .Page.LinkTitle "url" .Page.RelPermalink "count" .Count) }}
+{{- end }}
+{{- $projects := slice }}
+{{- with site.GetPage "/projects" }}{{ range .RegularPages }}
+  {{- $projects = $projects | append (dict "title" .Title "url" .RelPermalink "slug" .File.ContentBaseName "desc" .Description "lang" (.Params.lang | default "") "repo" (.Params.repo | default "")) }}
+{{- end }}{{ end }}
+{{- $about := "" }}{{ with site.GetPage "/about" }}{{ $about = .Summary }}{{ end }}
+{{- $contrib := dict }}{{ with hugo.Data.contributions }}{{ $contrib = dict "total" .total "repos" (len .repos) }}{{ end }}
+{{- $menu := slice }}
+{{- range site.Menus.main }}{{ $menu = $menu | append (dict "name" .Name "url" .URL) }}{{ end }}
+{{- $links := slice }}
+{{- range site.Params.links }}{{ $links = $links | append (dict "name" .name "url" .url) }}{{ end }}
+{{- $data := dict
+    "handle" site.Params.handle
+    "host" site.Params.host
+    "author" site.Params.author
+    "description" site.Params.description
+    "plan" site.Params.plan
+    "avatar" site.Params.avatar
+    "posts" $posts
+    "projects" $projects
+    "about" $about
+    "contrib" $contrib
+    "tags" $tags
+    "menu" $menu
+    "links" $links
+    "epoch" site.Params.ffxii.epoch
+    "hugo" hugo.Version
+    "built" (now.Format "2006-01-02T15:04:05Z07:00")
+    "theme" site.Params.style }}
+<script id="site-data" type="application/json">{{ $data | jsonify | safeJS }}</script>
