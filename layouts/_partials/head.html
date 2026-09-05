@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ if .IsHome }}{{ site.Title }} &middot; {{ site.Params.description }}{{ else }}{{ .Title }} &middot; {{ site.Title }}{{ end }}</title>
+<title>{{ if .IsHome }}{{ site.Title }} &middot; {{ site.Params.author }}{{ else }}{{ .Title }} &middot; {{ site.Title }}{{ end }}</title>
 <meta name="author" content="{{ site.Params.author }}">
 <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ if .IsPage }}{{ .Summary | plainify | truncate 160 }}{{ else }}{{ site.Params.description }}{{ end }}{{ end }}">
 <meta name="color-scheme" content="dark light">

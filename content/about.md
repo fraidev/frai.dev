@@ -2,14 +2,20 @@
 title = "about"
 layout = "about"
 description = "Felipe Cardozo, frai. Software engineer from Macaé, Brazil."
-summary = "Software engineer from Macaé, Rio de Janeiro, Brazil, graduated at Computer Engineering. I like the lower layers: runtimes, networking, streaming systems and the tooling around them, mostly in Rust, TypeScript, OCaml, Go and Elixir. Currently at Cumbuca. Before that, Deno, InfinyOn and Marigold."
+summary = "Software engineer from Macaé, Rio de Janeiro, Brazil, graduated in Computer Engineering. I like the lower layers: runtimes, networking, streaming systems and the tooling around them, mostly in Rust, TypeScript, OCaml, Go and Elixir. Currently at Cumbuca. Before that, Deno, InfinyOn and Marigold."
 +++
 
-Hi. I'm Felipe Cardozo, frai online. Software engineer from Macaé, Rio de Janeiro, Brazil, with a Computer Engineering background.
+Hi. I'm Felipe Cardozo, or just frai. 
 
-I like the lower layers: runtimes, networking, streaming systems and the tooling around them. Most of my work in the last years landed in open source repositories, in Rust, TypeScript, OCaml and Go. The pull requests are in [contributions](/contributions/), the side quests in [projects](/projects/).
+Software engineer from Macaé, Rio de Janeiro, Brazil, graduated at Computer Engineering.
 
-## experience
+I like the lower layers: runtimes, networking, streaming systems and the tooling around them. Most of my work in the last years landed in open source repositories, in Rust, TypeScript, OCaml, Go and Elixir. The pull requests are in [contributions](/contributions/), the side quests in [projects](/projects/).
+
+Currently at [Cumbuca](https://cumbuca.com/). 
+
+Before that, [Deno](https://deno.com/), [InfinyOn](https://infinyon.com/) and [Marigold](https://github.com/marigold-dev).
+
+## Experience
 
 - **Cumbuca** · Software Engineer · May 2026 - present · remote
 - **Deno** · Software Engineer · Nov 2025 - Mar 2026 · remote

@@ -1,6 +1,7 @@
 {{ define "main" }}
 {{- $home := slice (dict "name" "~" "url" "/") }}
 {{- $c := hugo.Data.contributions }}
+<h1 class="sr-only">{{ site.Params.author }}, {{ site.Params.handle }}</h1>
 <div class="panes is-multi" id="panes">
   <div class="col col-posts">
     <section class="pane" data-title="posts" data-index="0">

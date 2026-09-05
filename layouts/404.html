@@ -1,5 +1,6 @@
 {{ define "main" }}
 {{- $home := slice (dict "name" "~" "url" "/") }}
+<h1 class="sr-only">404, no such file or directory</h1>
 {{ partial "prompt.html" (dict "dir" $home "cmd" "cd" "arg" (dict "name" "…" "id" "nf-path")) }}
 <p class="out"><span class="err">cd: no such file or directory:</span> <span class="nf-path">…</span></p>
 {{ partial "prompt.html" (dict "dir" $home "cmd" "ls" "arg" (dict "name" "" "url" "")) }}

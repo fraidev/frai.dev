@@ -1,5 +1,6 @@
 {{ define "main" }}
 {{- $home := slice (dict "name" "~" "url" "/") }}
+<h1 class="sr-only">{{ .Title }}</h1>
 {{ partial "prompt.html" (dict "dir" $home "cmd" "ls -lt" "arg" (dict "name" (printf "%s/" .Section) "url" .RelPermalink)) }}
 {{- $p := .Paginate .RegularPages }}
 {{ partial "post-list.html" (dict "pages" $p.Pages "total" (len .RegularPages)) }}
